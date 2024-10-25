@@ -64,12 +64,27 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "flex_image_text_hz4haM": {
+      "type": "flex-image-text",
+      "settings": {
+        "bg_color": "#d2d654",
+        "text_color": "#1e3932",
+        "p": "<h1>Find your fall</h1><p>Embrace fall in full flavor with a Pumpkin Spice Latte, Apple Crisp Oatmilk Macchiato or Chai Latte.</p>",
+        "btn_text": "Learn More",
+        "link": "shopify://products/ethiopia-single-origin-beans",
+        "image": "shopify://shop_images/137-94171.webp",
+        "image_position": "row",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
     "flex_image_text_wNGyz3",
     "flex_image_text_xknpGj",
     "flex_image_text_jiKzBw",
-    "flex_image_text_bjzMQd"
+    "flex_image_text_bjzMQd",
+    "flex_image_text_hz4haM"
   ]
 }
