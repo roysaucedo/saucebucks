@@ -35,9 +35,9 @@
 .flex-image-text-{{ section.id }}-button {
   margin-top: 30px;
   padding: 7px 16px;
-  background-color: #ffffff00;
-  color: #ffffff;
-  border: 2px solid #ffffff;
+  background-color: {{ section.settings.btn_bg_color }};
+  color: {{ section.settings.btn_text_color }};
+  border: 2px solid {{ section.settings.btn_border_color }};
   border-radius: 40px;
   text-decoration: none;
 }
@@ -111,6 +111,24 @@
       "id": "text_color",
       "label": "Text color",
       "default": "#000000"
+    },
+    {
+      "type": "color",
+      "id": "btn_text_color",
+      "label": "Button Text Color",
+      "default": "#000"
+    },
+    {
+      "type": "color",
+      "id": "btn_bg_color",
+      "label": "Button BG Color",
+      "default": "#fff"
+    },
+    {
+      "type": "color",
+      "id": "btn_border_color",
+      "label": "Button Border Color",
+      "default": "#fff"
     },
     {
       "type": "richtext",
