@@ -32,6 +32,16 @@
     color: {{ section.settings.text_color }};
 }
 
+.flex-image-text-{{ section.id }}-button {
+  margin-top: 30px;
+  padding: 7px 16px;
+  background-color: #ffffff00;
+  color: #ffffff;
+  border: 2px solid #ffffff;
+  border-radius: 40px;
+  text-decoration: none;
+}
+
 @media only screen and (min-width: 768px) {
   /* For desktop: */
   .flex-image-text-{{ section.id }}-ctr {
@@ -78,7 +88,7 @@
         <div class="flex-image-text-{{ section.id }}-text-div">
             <span class="rich-text__text rte scroll-trigger animate--slide-in">{{ section.settings.p }}</span>
             {% if section.settings.link != blank %}
-            <a class="button button--primary" href="{{ section.settings.link }}">{{ section.settings.btn_text }}</a>
+            <a class="scroll-trigger animate--slide-in flex-image-text-{{ section.id }}-button" href="{{ section.settings.link }}">{{ section.settings.btn_text }}</a>
             {% endif %}
         </div>
     </div>
