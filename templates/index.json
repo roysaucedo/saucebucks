@@ -14,10 +14,9 @@
       "settings": {
         "bg_color": "#9e2340",
         "text_color": "#ffffff",
-        "h1": "Find your fall",
         "p": "<h1>Find your fall</h1><p>Embrace fall in full flavor with a Pumpkin Spice Latte, Apple Crisp Oatmilk Macchiato or Chai Latte.</p>",
         "btn_text": "Learn More",
-        "link": "",
+        "link": "shopify://products/australian-single-origin-beans",
         "image": "shopify://shop_images/137-94171.webp",
         "image_position": "row",
         "padding_top": 36,
@@ -29,7 +28,6 @@
       "settings": {
         "bg_color": "#9e2340",
         "text_color": "#ffffff",
-        "h1": "Find your fall",
         "p": "<h1>Find your fall</h1><p>Embrace fall in full flavor with a Pumpkin Spice Latte, Apple Crisp Oatmilk Macchiato or Chai Latte.</p>",
         "btn_text": "Learn More",
         "link": "",
@@ -44,7 +42,6 @@
       "settings": {
         "bg_color": "#9e2340",
         "text_color": "#ffffff",
-        "h1": "Find your fall",
         "p": "<h1>Find your fall</h1><p>Embrace fall in full flavor with a Pumpkin Spice Latte, Apple Crisp Oatmilk Macchiato or Chai Latte.</p>",
         "btn_text": "Learn More",
         "link": "",
