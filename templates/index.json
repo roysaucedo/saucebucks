@@ -82,9 +82,9 @@
       "settings": {
         "bg_color": "#d2d654",
         "text_color": "#1e3932",
-        "btn_text_color": "#000",
-        "btn_bg_color": "#fff",
-        "btn_border_color": "#fff",
+        "btn_text_color": "#1e3932",
+        "btn_bg_color": "#d2d654",
+        "btn_border_color": "#1e3932",
         "p": "<h1>Apple of autumn’s eye</h1><p>The only thing better than the return of the irresistible Baked Apple Croissant is that it’s here to stay.</p>",
         "btn_text": "Learn More",
         "link": "shopify://products/ethiopia-single-origin-beans",
