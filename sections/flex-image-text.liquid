@@ -5,26 +5,31 @@
     display: block;
     background-color: {{ section.settings.bg_color }};
 }
+
+.flex-image-text-{{ section.id }}-image-div {
+    width: 100%;
+    line-height: 0; /* Add this to remove space under image */
+}
+
 .flex-image-text-{{ section.id }}-image-div img {
     width: 100%;
     height: auto;
-    aspect-ratio: 1/1;
-    object-fit: cover;
+    display: block; /* Add this to remove space under image */
+    vertical-align: top; /* Add this to remove space under image */
 }
+
 .flex-image-text-{{ section.id }}-text-div {
     width: 100%;
     padding: 30px;
     text-align: center;
-    color: {{ section.settings.text_color }};
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-.flex-image-text-{{ section.id }}-image-div {
-    width: 100%;
-    
+.flex-image-text-{{ section.id }}-text-div * {
+    color: {{ section.settings.text_color }};
 }
 
 @media only screen and (min-width: 768px) {
@@ -32,41 +37,32 @@
   .flex-image-text-{{ section.id }}-ctr {
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: stretch; /* Changed from center to stretch */
     flex-direction: {{ section.settings.image_position }};
-}
-.flex-image-text-{{ section.id }}-text-div {
+  }
+  
+  .flex-image-text-{{ section.id }}-text-div {
     width: 50%;
-}
+  }
 
-.flex-image-text-{{ section.id }}-image-div {
+  .flex-image-text-{{ section.id }}-image-div {
     width: 50%;
-    
+  }
 }
-
-}
-
-
-
-
-
-
 
 /* PADDING */
 .section-{{ section.id }}-padding {
     padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
     padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
-  }
+}
 
-  @media screen and (min-width: 750px) {
+@media screen and (min-width: 750px) {
     .section-{{ section.id }}-padding {
       padding-top: {{ section.settings.padding_top }}px;
       padding-bottom: {{ section.settings.padding_bottom }}px;
     }
-  }
+}
 {%- endstyle -%}
-
-
 
 <div class="page-width section-{{ section.id }}-padding">
     <div class="flex-image-text-{{ section.id }}-ctr">
@@ -77,23 +73,16 @@
                 width="{{ section.settings.image.width }}" height="{{ section.settings.image.height }}" class="">
             {% else %}
             {{ 'product-1' | placeholder_svg_tag }}
-
             {% endif %}
-
         </div>
         <div class="flex-image-text-{{ section.id }}-text-div">
-            <h2 class="rich-text__heading rte inline-richtext h1 scroll-trigger animate--slide-in">{{
-                section.settings.h1 }}</h2>
             <span class="rich-text__text rte scroll-trigger animate--slide-in">{{ section.settings.p }}</span>
             {% if section.settings.link != blank %}
             <a class="button button--primary" href="{{ section.settings.link }}">{{ section.settings.btn_text }}</a>
             {% endif %}
-
         </div>
-
     </div>
 </div>
-
 
 {% schema %}
 {
@@ -102,22 +91,16 @@
   "class": "section",
   "settings": [
     {
-    "type": "color",
-    "id": "bg_color",
-    "label": "Text Area BG Color",
-    "default": "#fafafa"
+      "type": "color",
+      "id": "bg_color",
+      "label": "Text Area BG Color",
+      "default": "#fafafa"
     },
     {
-    "type": "color",
-    "id": "text_color",
-    "label": "Text color",
-    "default": "#000000"
-    },
-    {
-      "type": "text",
-      "id": "h1",
-      "default": "Heading",
-      "label": "Heading"
+      "type": "color",
+      "id": "text_color",
+      "label": "Text color",
+      "default": "#000000"
     },
     {
       "type": "richtext",
@@ -142,20 +125,20 @@
       "label": "Image"
     },
     {
-        "type": "select",
-        "id": "image_position",
-        "label": "Image Position Desktop",
-        "options": [
-            {
-            "value": "row",
-            "label": "Left"
-            },
-            {
-            "value": "row-reverse",
-            "label": "Right"
-            }
-        ],
-        "default": "row"
+      "type": "select",
+      "id": "image_position",
+      "label": "Image Position Desktop",
+      "options": [
+        {
+          "value": "row",
+          "label": "Left"
+        },
+        {
+          "value": "row-reverse",
+          "label": "Right"
+        }
+      ],
+      "default": "row"
     },
     {
       "type": "range",
