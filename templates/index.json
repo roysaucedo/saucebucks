@@ -14,6 +14,9 @@
       "settings": {
         "bg_color": "#9e2340",
         "text_color": "#ffffff",
+        "btn_text_color": "#000",
+        "btn_bg_color": "#fff",
+        "btn_border_color": "#fff",
         "p": "<h1>Find your fall</h1><p>Embrace fall in full flavor with a Pumpkin Spice Latte, Apple Crisp Oatmilk Macchiato or Chai Latte.</p>",
         "btn_text": "Learn More",
         "link": "shopify://products/australian-single-origin-beans",
@@ -28,6 +31,9 @@
       "settings": {
         "bg_color": "#d2d654",
         "text_color": "#1e3932",
+        "btn_text_color": "#ffffff",
+        "btn_bg_color": "#1e3932",
+        "btn_border_color": "#1e3932",
         "p": "<h1>Send a scary-delicious treat</h1><p>Share the thrill of Halloween by treating someone special to a Starbucks eGift.</p>",
         "btn_text": "Learn More",
         "link": "shopify://products/ethiopia-single-origin-beans",
@@ -42,6 +48,9 @@
       "settings": {
         "bg_color": "#036141",
         "text_color": "#ffffff",
+        "btn_text_color": "#000",
+        "btn_bg_color": "#fff",
+        "btn_border_color": "#fff",
         "p": "<h2>Your treat awaits</h2><p>Fall in love with Starbucks® Rewards member perks, like a free drink with qualifying purchase during your first week. Valid for one-time use.*</p>",
         "btn_text": "Learn More",
         "link": "shopify://products/mexico-single-origin-beans",
@@ -56,6 +65,9 @@
       "settings": {
         "bg_color": "#d9e79a",
         "text_color": "#1e3932",
+        "btn_text_color": "#000",
+        "btn_bg_color": "#fff",
+        "btn_border_color": "#fff",
         "p": "<h1>One coffee. Two distinct roasts.</h1><p>Enjoy Starbucks® Milano Sole light roast with notes of vanilla custard and sweet pomegranate. Or Starbucks® Milano Luna dark roast with notes of dark chocolate truffle and black walnut.</p>",
         "btn_text": "Learn More",
         "link": "shopify://products/ethiopia-single-origin-beans",
@@ -70,6 +82,9 @@
       "settings": {
         "bg_color": "#d2d654",
         "text_color": "#1e3932",
+        "btn_text_color": "#000",
+        "btn_bg_color": "#fff",
+        "btn_border_color": "#fff",
         "p": "<h1>Apple of autumn’s eye</h1><p>The only thing better than the return of the irresistible Baked Apple Croissant is that it’s here to stay.</p>",
         "btn_text": "Learn More",
         "link": "shopify://products/ethiopia-single-origin-beans",
@@ -84,6 +99,9 @@
       "settings": {
         "bg_color": "#f2f0ea",
         "text_color": "#1e3932",
+        "btn_text_color": "#000",
+        "btn_bg_color": "#fff",
+        "btn_border_color": "#fff",
         "p": "<h2>Fall favorites in your personal cup</h2><p>Wherever you order—café, drive-thru or app—bring in your own clean cup to help reduce waste and earn Rewards.**</p>",
         "btn_text": "Learn More",
         "link": "shopify://products/ethiopia-single-origin-beans",
