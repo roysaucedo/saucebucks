@@ -48,8 +48,8 @@
       "settings": {
         "bg_color": "#036141",
         "text_color": "#ffffff",
-        "btn_text_color": "#000",
-        "btn_bg_color": "#fff",
+        "btn_text_color": "#ffffff",
+        "btn_bg_color": "#036141",
         "btn_border_color": "#fff",
         "p": "<h2>Your treat awaits</h2><p>Fall in love with Starbucks® Rewards member perks, like a free drink with qualifying purchase during your first week. Valid for one-time use.*</p>",
         "btn_text": "Learn More",
