@@ -25,6 +25,9 @@
     },
     "header": {
       "type": "header",
+      "custom_css": [
+        "* {text-transform: uppercase; font-weight: 800;}"
+      ],
       "settings": {
         "logo_position": "middle-left",
         "menu": "main-menu",
